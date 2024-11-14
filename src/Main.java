@@ -102,10 +102,10 @@ public class Main {
         int peopleInTrain = 110;
         int seatPlaces = 60;
         int maxPlaces = 102;
-        if (peopleInTrain>=1 && peopleInTrain<60) {
+        if (peopleInTrain>=1 && peopleInTrain<seatPlaces) {
             System.out.println("В вагоне есть места для проезда сидя");
         }
-        else if (peopleInTrain>=60 && peopleInTrain<102) {
+        else if (peopleInTrain>=seatPlaces && peopleInTrain<maxPlaces) {
             System.out.println("В вагоне остались только места для проезда стоя");
         }
         else {
